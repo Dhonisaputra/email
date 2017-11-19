@@ -1,4 +1,5 @@
 # Email Library
+Library hanya dapat digunakan ketika anda telah men-setting pengaturan sendmail anda dengan benar atau menggunakan server seperti shared hosting. 
 
 ## initialize
 ```php
