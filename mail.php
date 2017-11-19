@@ -186,7 +186,6 @@ class mail {
 
         $boSend = @mail($stTo, $this->subject, $nmessage, $header);
         $this->debugger = $nmessage."\n".$header;
-        echo $header;
         if (!$boSend) {
             return false;
         }        
