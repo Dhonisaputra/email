@@ -1,5 +1,5 @@
 # Email Library
-Library hanya dapat digunakan ketika anda telah men-setting pengaturan sendmail anda dengan benar atau menggunakan server seperti shared hosting. 
+The library can only be used when you have set your sendmail settings correctly or use a server like shared hosting. also this library is still under developed. if you don't see your email in inbox, please check your spam folder.
 
 ## initialize
 ```php
