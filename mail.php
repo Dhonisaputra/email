@@ -171,7 +171,6 @@ class mail {
         $stTo = implode(", ", $this->to);                
         
         $body =  ($this->contentType == 'html')? $this->clean($this->body) : nl2br($this->body); 
-        $body .= '<div style="opacity:0;"> '.uniqid(TRUE).' </div>';
         // message & attachment
         $nmessage = "--".$separator."\r\n";
         $nmessage .= "Content-type:text/html; charset=iso-8859-1\r\n";
